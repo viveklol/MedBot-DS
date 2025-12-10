@@ -1,6 +1,6 @@
-# MediBot - Medical Question Answering System
+# MedBot - Medical Question Answering System
 
-MediBot is an AI-powered medical question answering system that uses retrieval-augmented generation (RAG) to provide accurate medical information. The system leverages OpenAI's GPT models combined with a vector database of medical knowledge from the MedQuAD dataset.
+MedBot is an AI-powered medical question answering system that uses retrieval-augmented generation (RAG) to provide accurate medical information. The system leverages OpenAI's GPT models combined with a vector database of medical knowledge from the MedQuAD dataset.
 
 ## Features
 
