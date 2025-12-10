@@ -26,11 +26,11 @@ qa_system = MedicalQASystem(
 
 def main():
     # Set the title in the middle of the page
-    st.set_page_config(page_title="MediBot", page_icon=":robot_face:", layout="centered")
+    st.set_page_config(page_title="MedBot", page_icon=":robot_face:", layout="centered")
     col1, col2, col3,col4,col5 = st.columns([1,1.4,1, 1, 1])
     with col3:
         st.image("assets/MedBot logo.png", width=60)
-    st.markdown("<h1 style='text-align: center;'>MediBot - Your Medical Assistant</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>MedBot - Your Medical Assistant</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Ask me any medical question!</p>", unsafe_allow_html=True)
 
     if 'messages' not in st.session_state:
